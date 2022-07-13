@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import StateProvider from "../state"
+import "../styles/globals.css"
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+    return (
+        <StateProvider>
+            <Component {...pageProps} />
+        </StateProvider>
+    )
 }
 
 export default MyApp
