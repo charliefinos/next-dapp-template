@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@thirdweb-dev/react": "^2.4.8",
+    "@thirdweb-dev/sdk": "^2.3.26",
     "bnc-onboard": "^1.38.4",
     "ethers": "^5.6.9",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-modal": "^3.15.1",
     "unstated-next": "^1.1.0"
   },
   "devDependencies": {
